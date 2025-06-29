@@ -13,12 +13,13 @@ dotenv.config({})
 
 const cloudinary = require('cloudinary').v2;
 
-cloudinary.config({
-  cloud_name: 'dsprbnpqo',
-  api_key:'153975139943249',
-  api_secret: '4fuUdi3yubmgZX03cXdtoI0p06Y'
-
+// Configuration
+cloudinary.config({ 
+  cloud_name: 'dsprbnpqo', 
+  api_key: '129264287522167', 
+  api_secret: 'r_W_mc5cI544aSDc_mq7ucukfss' // Click 'View API Keys' above to copy your API secret
 });
+
 
 
 // const PORT = process.env.PORT || 5000
