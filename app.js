@@ -31,9 +31,9 @@ const port = process.env.port || 5000;
 
 // CORS
 app.use(cors({
-  origin: 'https://iridescent-vacherin-d960fa.netlify.app/',
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE']
+  // origin: 'https://iridescent-vacherin-d960fa.netlify.app/',
+  // credentials: true,
+  // methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 app.use(express.json())
 app.use(cookieparser());
