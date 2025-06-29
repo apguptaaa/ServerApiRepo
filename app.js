@@ -19,7 +19,7 @@ cloudinary.config({
   api_key: '129264287522167', 
   api_secret: 'r_W_mc5cI544aSDc_mq7ucukfss' // Click 'View API Keys' above to copy your API secret
 });
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.port || 5000;
 
 
 // const PORT = process.env.PORT || 5000
@@ -47,5 +47,5 @@ dbconnect()
 //localhost server
 app.use('/api',web)
 app.listen(port,()=>{
-    console.log("server start localhost:5000")
+    console.log("server started on port",port)
 })
