@@ -31,7 +31,7 @@ cloudinary.config({
 
 // CORS
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://iridescent-vacherin-d960fa.netlify.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
