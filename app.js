@@ -14,9 +14,10 @@ dotenv.config({})
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET
+  cloud_name: 'dsprbnpqo',
+  api_key:'153975139943249',
+  api_secret: '4fuUdi3yubmgZX03cXdtoI0p06Y'
+
 });
 
 
@@ -35,7 +36,7 @@ app.use(cors({
 }));
 app.use(express.json())
 app.use(cookieparser());
-
+app.use(express.urlencoded({ extended: true })); // handles urlencoded form data
 app.use(fileUpload({
   useTempFiles: true
 }));
