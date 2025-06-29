@@ -1,0 +1,11 @@
+/node_modules
+/.env
+# Node.js temp and logs
+tmp/
+temp/
+*.log
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
